@@ -2,7 +2,7 @@
 
 # Problema: Crear un programa cuyo output genere un patrón en forma de triángulo que finalice al llegar al input.
 
-# Planeación: La interfaz del programa será la consola de comando, la función del program será crear un patrón en forma de triángulo
+# Planeación: La interfaz del programa será la consola de comando, la función del programa será crear un patrón en forma de triángulo
 # finalizando este en el número que el usuario ingresó.
 
 #Pseudocódigo
@@ -19,7 +19,3 @@ for i in range(1, num + 1):
     print("")
     for j in range (1, i+ 1): 
         print(j, end = " ") 
-
-
-
-    
