@@ -11,6 +11,7 @@
 # Imprimiendo como resultado final el factorial del input.
 
 # Subproblemas: 
+# Crear la variable para el input del usuario.
 # Generar las variables "factorial" y "num" con un valor = 1.
 # Crear un loop "for _ in range" para multiplicar "factorial" * los números contenidos en el loop.
 # El programa debe imprimir el factorial correcto.
