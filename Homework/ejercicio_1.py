@@ -16,10 +16,10 @@
 # Crear un loop "for _ in range" para multiplicar "factorial" * los números contenidos en el loop.
 # El programa debe imprimir el factorial correcto.
 
-
-
-
- 
-
-
+num = int(input("Ingrese un número mayor a 0: "))
+factorial = 1 
+for dig in range(1, num + 1): 
+    factorial *= dig 
+    print(factorial)
+    
 
