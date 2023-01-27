@@ -8,7 +8,7 @@
 # El usuario ingresa un número entero al programa.
 # El programa genera un loop que va desde la variable "num" y termina en el input.
 # La variable "factorial" se multiplica por cada uno de los números contenidos en el loop.
-# Dando como resultado final e imprimiendo el factorial de número ingresado por el usuario.
+# Imprimiendo como resultado final el factorial del input.
 
 # Subproblemas: 
 # Generar las variables "factorial" y "num" con un valor = 1.
