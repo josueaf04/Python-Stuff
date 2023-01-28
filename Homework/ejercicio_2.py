@@ -5,7 +5,7 @@
 # Planeación: La interfaz del programa será la consola de comando, la función del programa será crear un patrón en forma de triángulo
 # finalizando este en el número que el usuario ingresó.
 
-#Pseudocódigo
+# Pseudocódigo
 # El usuario ingresa un número mayor a 0.
 # Mediante una validación de if / else, el programa comprueba si ese input es mayor a 0, si no lo es imprime "Error"
 # El programa genera un loop que empieza en 1 y termina en el input.
@@ -14,6 +14,11 @@
 # Finalmente imprime "j" y declara que ese loop termina en " " para evitar que los números de "j" se ejecuten
 # sin espacio 
 
+#  Subproblemas
+#  Crear la variable para que el usuario ingrese el input.
+#  Crear la validación if / else, para confirmar si el número ingresado cumple con lo requerido por el programa.
+#  Generar un loop con variable "i" y otro dentro de este con variable "j".
+#  Lograr que el output ejecute el patrón y la forma deseada.
 
 num = int(input("Ingrese un número mayor a 0: ")) 
 if num > 0: 
