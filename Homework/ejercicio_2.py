@@ -7,6 +7,7 @@
 
 #Pseudocódigo
 # El usuario ingresa un número mayor a 0.
+# Mediante una validación de if / else, el programa comprueba si ese input es mayor a 0, si no lo es imprime "Error"
 # El programa genera un loop que empieza en 1 y termina en el input.
 # Imprime "" para que cada vez que "i" se itera, sea en una línea distinta (hacia abajo).
 # Luego el programa crea un loop (dentro del loop ya existente) que va desde 1 hasta la variable "i".
@@ -15,6 +16,10 @@
 
 
 num = int(input("Ingrese un número mayor a 0: ")) 
+if num > 0: 
+    print("")
+else: 
+    print("Error, el número ingresado debe ser mayor a 0")    
 for i in range(1, num + 1): 
     print("")
     for j in range (1, i+ 1): 
