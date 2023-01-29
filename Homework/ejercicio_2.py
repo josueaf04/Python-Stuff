@@ -20,6 +20,8 @@
 #  Generar un loop con variable "i" y otro dentro de este con variable "j".
 #  Lograr que el output ejecute el patrón y la forma deseada.
 
+# Resolución: 
+
 num = int(input("Ingrese un número mayor a 0: ")) 
 if num > 0: 
     print("")

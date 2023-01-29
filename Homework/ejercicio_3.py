@@ -12,6 +12,8 @@
 
 # Subproblemas: Crear las variables en las que estarán los inputs, crear la validación "if", concatenar los inputs en una variable nueva.
 
+# Resolución: 
+
 str = input("Ingrese una palabra: ")
 str2 = input("Ingrese otra palabra que contenga los mismos digitos que la anterior: ")
 if len(str) != len(str2): 

@@ -18,6 +18,8 @@
 # Crear un loop "for _ in range" para multiplicar "factorial" * los números contenidos en el loop.
 # El programa debe imprimir el factorial correcto.
 
+# Resolución: 
+
 num = int(input("Ingrese un número mayor a 0: ")) 
 if num > 0: 
     print("") 
