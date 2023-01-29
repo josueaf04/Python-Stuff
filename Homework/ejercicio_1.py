@@ -20,10 +20,11 @@
 
 num = int(input("Ingrese un número mayor a 0: ")) 
 if num > 0: 
-    print("")
+    print("") 
 else: 
-    print("Error")
+    print("Error, el número ingresado debe ser mayor a 0")   
 factorial = 1
 for i in range(1, num + 1): 
     factorial *= i 
-print("El factorial de su número es", factorial)
+print("El factorial de su número es", factorial) 
+  
