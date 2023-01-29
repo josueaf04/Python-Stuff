@@ -2,7 +2,7 @@
 
 # Crear un programa que saque el promedio de las notas dadas y que ese promedio se imprima en un diccionario.
 
-# La interfaz del programa será la consola de comando, el programa hará el cálculo del promedio de las notas y creará un diccionario con el nombre del estudiante
+# Planeación: La interfaz del programa será la consola de comando, el programa hará el cálculo del promedio de las notas y creará un diccionario con el nombre del estudiante
 # y su promedio calculado.
 
 # Pseudocódigo: 

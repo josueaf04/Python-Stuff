@@ -2,7 +2,7 @@
 
 # Problema: Crear un programa que eleve los digitos de una lista al cubo, en una nueva lista.
 
-# La interfaz del programa será la consola de comando, el programa recibirá una lista con ciertos numeros, el output deseado es que el programa cree una
+# Planeación: La interfaz del programa será la consola de comando, el programa recibirá una lista con ciertos numeros, el output deseado es que el programa cree una
 # nueva lista pero con el resultado del cubo de estos numeros. 
 
 # Pseudocódigo: 

@@ -2,7 +2,7 @@
 
 # Problema: Crear un programa que elimine los digitos repetidos de una lista e imprima una nueva sin ellos.
 
-# La interfaz del programa será la consola de comando, el programa recibirá una lista, analizará si dicha lista contiene digitos iguales,
+# Planeación: La interfaz del programa será la consola de comando, el programa recibirá una lista, analizará si dicha lista contiene digitos iguales,
 # si los hay, creará una nueva lista sin ellos.
 
 # Pseudocódigo:

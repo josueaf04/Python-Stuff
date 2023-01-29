@@ -2,7 +2,7 @@
 
 # Problema: Crear un programa que reciba dos palabras del mismo largo y que cree una nueva con los caracteres intercalados. 
 
-# La interfaz del programa será la consola de comando, la función del programa será recibir dos palabras del mismo largo y crear
+# Planeación: La interfaz del programa será la consola de comando, la función del programa será recibir dos palabras del mismo largo y crear
 # una string con los caracteres de esas palabras intercalados.
 
 # Pseudocódigo: 
