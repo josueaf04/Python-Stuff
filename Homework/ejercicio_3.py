@@ -1,4 +1,13 @@
 "Strings intercaladas"
 
-pal1 , pal2 = input("Ingrese dos palabras con el mismo número de caracteres: ").split() 
+str = input("Ingrese una palabra: ")
+str2 = input("Ingrese otra palabra que contenga los mismos digitos que la anterior: ")
+if len(str) != len(str2): 
+    print("Error, las palabras deben de tener el mismo número de digitos.")
+for i in str, str2: 
+    
+    
 
+
+     
+    
