@@ -6,12 +6,3 @@ output = []
 for i in eliminar: 
     output.append(i) 
 print(output)
-
-
-
-
-
-
-     
-
-
