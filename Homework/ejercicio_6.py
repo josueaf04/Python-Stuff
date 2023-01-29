@@ -13,7 +13,7 @@
 # Con el loop ya creado mediante append() se agrega a la lista vacía la variable "i".
 # Finalmente se imprime la lista "output".
 
-# Subproblemas: Crear el set, generar la lista vacía en la que se imprimirá nuestro output, por otro lado desarrollar el loop for,
+# Subproblemas: Crear el set, generar la lista vacía en la que se imprimirá nuestro output, por otro lado desarrollar el loop "for",
 # agregar la variable de nuestro loop a la lista vacía, que el programa imprima la lista sin los digitos repetidos.
 
 # Resolución: 
