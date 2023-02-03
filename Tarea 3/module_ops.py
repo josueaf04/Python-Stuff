@@ -2,8 +2,8 @@ from tarea_3 import elec
 
 rein = elec 
 
-def suma(a,b):
-    return a+b
+def suma(a):
+    return a
 
 def resta(a,b):
     return a-b
