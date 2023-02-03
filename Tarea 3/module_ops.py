@@ -1,28 +1,33 @@
+from tarea_3 import elec
 
-#FACTORIAL 
+rein = elec 
+
+while rein <=6:
+    print
 
 
-num = int(input("Hola, coloca un numero:"))
+    a = input("Hola, coloca un numero:")
 
-fact = 1
+    b = 1
 
-while True:
-    for i in range(1, num+1):
-        fact = (fact* i)
-    if num < 0:
-        print("**ERORR EL NUMERO DEBE SER POSITIVO**")
-        print(f"Has colocado {num}")
-        break
+    while True:
+     for i in range(1, a+1):
+         b = (b* i)
+     if a < 0:
+            print("**ERORR EL NUMERO DEBE SER POSITIVO**")
+            print(f"Has colocado {a}")
+            break
     else:
-        print("Tu numero es positivo")
-    print(f"y el factorial de {num} es: {fact}")
+         print("Tu numero es positivo")
+    print(f"el factorial de {a} es: {b}")
     break
 
 
 
 
 
-
+rein ==7
+print('JODASE')
 
 
 
