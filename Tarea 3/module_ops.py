@@ -5,6 +5,12 @@ rein = elec
 while rein <=6:
     print
 
+print("Ingrese el primer número: ") 
+a = float(input())
+print("Ingrese el segundo número: ")
+b = float(input()) 
+resta = a - b 
+print("El resultado de la resta es", resta)
 
     a = input("Hola, coloca un numero:")
 
