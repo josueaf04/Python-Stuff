@@ -20,6 +20,7 @@ def potencia(a,b):
 
 
 
+<<<<<<< HEAD
 
 # while True:
 #     print("Ingrese el primer número: ") 
@@ -52,8 +53,20 @@ def potencia(a,b):
         
        
     
+=======
+# #SUMA
+# while OP <= 6:
+#     if OP == 1:
+#         print("Ingrese el primer número: ") 
+#         a = float(input())
+#         print("Ingrese el segundo número: ")
+#         b = float(input()) 
+#         suma = a + b 
+#         print("El resultado de la resta es", suma)
+>>>>>>> c6a8d0b8f7430eecb8e1e19dcdf3fcfd9a34fe93
 
-# #RESTA
+
+# RESTA
 # while OP <= 6:
 #     if OP == 2:
 #         print("Ingrese el primer número: ") 
@@ -61,6 +74,7 @@ def potencia(a,b):
 #         print("Ingrese el segundo número: ")
 #         b = float(input()) 
 #         resta = a - b 
+<<<<<<< HEAD
 #         print("El resultado de la resta es", resta)
 
 #MULTIPLICACION
@@ -93,7 +107,20 @@ def potencia(a,b):
 #     print("El resultado de la suma es", multi)
 #     break
        
+=======
+#         print("El resultado de la resta es", resta) 
+# División
+    # if OP == 3: 
+    #     print("Ingrese el primer número: ")
+    #     a = float(input())
+    #     print("Ingrese el segundo número: ")
+    #     b = float(input())
+    #     div = a / b 
+    #     print("El resultado de la división es", div)
+>>>>>>> c6a8d0b8f7430eecb8e1e19dcdf3fcfd9a34fe93
 
+      
+# Factorial
 # while True:
 #  a = input("Hola, coloca un numero:")
 #         b = 1
@@ -109,23 +136,15 @@ def potencia(a,b):
 #         break
 
 
+# Potencia
+    # if OP == 6: 
+    #     print("Ingrese el primer número: ")
+    #     a = float(input())
+    #     print("Ingrese el segundo número: ")
+    #     b = float(input()) 
+    #     pot = a**b 
+    #     print("El resultado de la potencia es", pot)
+
 
 # elec ==7
 # print('JODASE')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
