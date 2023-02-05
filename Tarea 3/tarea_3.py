@@ -11,7 +11,7 @@ print("4 - Mutiplicación")
 print("5 - Factorial")
 print("6 - Potencia")
 print("7 - Si desea salir")
-elec = input("Seleccione el número de la operación que desea realizar")
+elec = input("Seleccione el número de la operación que desea realizar: ")
 
 
 

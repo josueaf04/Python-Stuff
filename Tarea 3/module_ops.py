@@ -29,11 +29,9 @@ def potencia(a,b):
 #         b = float(input()) 
 #         suma = a + b 
 #         print("El resultado de la resta es", suma)
-        
-       
-    
 
-# #RESTA
+        
+# RESTA
 # while OP <= 6:
 #     if OP == 2:
 #         print("Ingrese el primer número: ") 
@@ -41,12 +39,18 @@ def potencia(a,b):
 #         print("Ingrese el segundo número: ")
 #         b = float(input()) 
 #         resta = a - b 
-#         print("El resultado de la resta es", resta)
+#         print("El resultado de la resta es", resta) 
+# División
+#     if OP == 3: 
+#         print("Ingrese el primer número: ")
+#         a = float(input())
+#         print("Ingrese el segundo número: ")
+#         b = float(input())
+#         div = a / b 
+#         print("El resultado de la división es", div)
 
-
-
-       
-
+      
+# Factorial
 # while True:
 #  a = input("Hola, coloca un numero:")
 #         b = 1
@@ -60,7 +64,6 @@ def potencia(a,b):
 #         print(" ")
 #         print(f"el factorial de {a} es: {b}")
 #         break
-
 
 
 # elec ==7
