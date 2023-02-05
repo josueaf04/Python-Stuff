@@ -30,7 +30,7 @@ def potencia(a,b):
 #         suma = a + b 
 #         print("El resultado de la resta es", suma)
 
-        
+
 # RESTA
 # while OP <= 6:
 #     if OP == 2:
@@ -41,13 +41,13 @@ def potencia(a,b):
 #         resta = a - b 
 #         print("El resultado de la resta es", resta) 
 # División
-#     if OP == 3: 
-#         print("Ingrese el primer número: ")
-#         a = float(input())
-#         print("Ingrese el segundo número: ")
-#         b = float(input())
-#         div = a / b 
-#         print("El resultado de la división es", div)
+    # if OP == 3: 
+    #     print("Ingrese el primer número: ")
+    #     a = float(input())
+    #     print("Ingrese el segundo número: ")
+    #     b = float(input())
+    #     div = a / b 
+    #     print("El resultado de la división es", div)
 
       
 # Factorial
@@ -66,22 +66,15 @@ def potencia(a,b):
 #         break
 
 
+# Potencia
+    # if OP == 6: 
+    #     print("Ingrese el primer número: ")
+    #     a = float(input())
+    #     print("Ingrese el segundo número: ")
+    #     b = float(input()) 
+    #     pot = a**b 
+    #     print("El resultado de la potencia es", pot)
+
+
 # elec ==7
 # print('JODASE')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
