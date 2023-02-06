@@ -122,7 +122,7 @@ while op <= 6:
             print(f"el factorial de {a} es: {b}")
             break
 
-    #POTECIA
+    #POTENCIA
 
     if op == 6: 
         print("Ingrese el primer número: ")
@@ -133,4 +133,4 @@ while op <= 6:
         print("El resultado de la potencia es", pot)
 
 op == 7
-print('JODASE')
+print("Gracias")
