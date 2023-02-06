@@ -32,7 +32,7 @@ while op <= 6:
          suma = a + b 
          print(" ")
 
-         ("Resultado: ", suma)
+         print("Resultado: ", suma)
     
          print("DIGA n PARA TERMINAR, DIGA p PARA CONTINUAR")
          respuesta = input("Ingrese su respuesta: ")
@@ -43,15 +43,16 @@ while op <= 6:
                 suma = suma + a
 
                 print(" ")
-
+         
                 print("Resultado: ", suma)
                 print("DIGA n PARA TERMINAR, DIGA p PARA CONTINUAR")
                 respuesta = input("¿Desea terminar el programa?: ")
 
-            print(" ")
+                print(" ")
 
-            print("El resultado de la suma es", suma)
-            break
+                print("El resultado de la suma es", suma)
+                break
+
 
     #RESTA
 
@@ -62,7 +63,10 @@ while op <= 6:
         b = float(input()) 
         resta = a - b 
         print("El resultado de la resta es", resta)
-        
+        print("Si desea realizar otro cálculo escriba si, si no digite 7")
+ 
+
+
     #MULTIPLICACION
       
     if op == 3:
@@ -80,7 +84,7 @@ while op <= 6:
             respuesta = input("Ingrese su respuesta: ")
             while respuesta != "n":
                 if respuesta == "p":  
-                 print("Ingrese otro numero número: ") 
+                 print("Ingrese otro número: ") 
                  a = float(input())
                 multi = multi * a
 
@@ -92,10 +96,11 @@ while op <= 6:
 
                 print(" ")
 
-                print("El resultado de la suma es", multi)
+                print("El resultado de la multiplicación es", multi)
                 break 
 
     # División
+
     if op == 4: 
         print("Ingrese el primer número: ")
         a = float(input())
@@ -132,5 +137,7 @@ while op <= 6:
         pot = a**b 
         print("El resultado de la potencia es", pot)
 
-op == 7
-print("Gracias")
+if op == 7: 
+    print("Gracias")
+
+# print("Si desea realizar otro cálculo escriba "y" si no digite 7")
