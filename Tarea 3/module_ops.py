@@ -93,7 +93,16 @@ while op <= 6:
                 print(" ")
 
                 print("El resultado de la suma es", multi)
-                break
+                break 
+
+    # División
+    if op == 4: 
+        print("Ingrese el primer número: ")
+        a = float(input())
+        print("Ingrese el segundo número: ")
+        b = float(input())
+        div = a / b 
+        print("El resultado de la división es", div)
 
     #FACTORIAL  
          
