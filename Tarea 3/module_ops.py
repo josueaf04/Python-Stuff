@@ -9,6 +9,9 @@ while op <= 6:
     #SUMA
     if op == 1:
         while True:
+         print("**SUMA**")
+
+         print(" ")
          print("Ingrese el primer número: ") 
          a = float(input())
          print("Ingrese el segundo número: ")
@@ -41,6 +44,9 @@ while op <= 6:
     #RESTA
 
     if op == 2:
+        print("**RESTA**")
+
+        print(" ")
         print("Ingrese el primer número: ") 
         a = float(input())
         print("Ingrese el segundo número: ")
@@ -52,6 +58,10 @@ while op <= 6:
       
     if op == 3:
         while True:
+            print("**MULTIPLICACION**")
+
+            print(" ")
+
             print("Ingrese el primer número: ") 
             a = float(input())
             print("Ingrese el segundo número: ")
@@ -82,6 +92,9 @@ while op <= 6:
 
     # División
     if op == 4: 
+        print("**División**")
+
+        print(" ")
         print("Ingrese el primer número: ")
         a = float(input())
         print("Ingrese el segundo número: ")
@@ -93,6 +106,9 @@ while op <= 6:
          
     if op == 5:
         while True:
+            print("**FACTORIAL**")
+
+            print(" ")
             a = input("Hola, coloca un numero:")
             b = 1
             for i in range(1, a+1):
@@ -109,7 +125,10 @@ while op <= 6:
 
     #POTENCIA
 
-    if op == 6: 
+    if op == 6:
+        print("**POTENCIA**")
+
+        print(" ") 
         print("Ingrese el primer número: ")
         a = float(input())
         print("Ingrese el segundo número: ")
