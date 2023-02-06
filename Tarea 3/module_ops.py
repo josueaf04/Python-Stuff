@@ -3,12 +3,11 @@ from tarea_3 import elec
 op = int(elec)
 
 
-
 while op <= 6:
 
     #SUMA
     if op == 1:
-        while True:
+         
          print("**SUMA**")
 
          print(" ")
@@ -25,6 +24,7 @@ while op <= 6:
          print("DIGA n PARA TERMINAR, DIGA p PARA CONTINUAR")
          respuesta = input("Ingrese su respuesta: ")
          while respuesta != "n":
+             
              if respuesta == "p":  
                 print("Ingrese otro numero número: ") 
                 a = float(input())
@@ -35,15 +35,22 @@ while op <= 6:
                 print("Resultado: ", suma)
                 print("DIGA n PARA TERMINAR, DIGA p PARA CONTINUAR")
                 respuesta = input("¿Desea terminar el programa?: ")
-
+               
                 print(" ")
 
-         print("El resultado de la suma es", suma)
-         break 
+         print("La SUMA TOTAL es: ", suma)
+         print(" ")
+
+         op = int(input("Seleccione el número de la operación que desea realizar: "))
+   
+         
+          
+          
 
     #RESTA
 
     if op == 2:
+        op = op + 1
         print("**RESTA**")
 
         print(" ")
@@ -53,11 +60,16 @@ while op <= 6:
         b = float(input()) 
         resta = a - b 
         print("El resultado de la resta es", resta)
+
+        print(" ")
+         
+        op = int(input("Seleccione el número de la operación que desea realizar: "))
         
     #MULTIPLICACION
       
     if op == 3:
-        while True:
+            op = op + 1
+        
             print("**MULTIPLICACION**")
 
             print(" ")
@@ -88,10 +100,14 @@ while op <= 6:
                 print(" ")
 
                 print("El resultado de la suma es", multi)
-                break 
+
+            print(" ")
+         
+            op = int(input("Seleccione el número de la operación que desea realizar: "))
 
     # División
-    if op == 4: 
+    if op == 4:
+        op = op + 1 
         print("**División**")
 
         print(" ")
@@ -101,6 +117,10 @@ while op <= 6:
         b = float(input())
         div = a / b 
         print("El resultado de la división es", div)
+
+        print(" ")
+         
+        op = int(input("Seleccione el número de la operación que desea realizar: "))
 
     #FACTORIAL  
          
@@ -121,7 +141,9 @@ while op <= 6:
             else:
              print(" ")
             print(f"el factorial de {a} es: {b}")
-            break
+            print(" ")
+         
+            op = int(input("Seleccione el número de la operación que desea realizar: "))
 
     #POTENCIA
 
@@ -135,6 +157,10 @@ while op <= 6:
         b = float(input()) 
         pot = a**b 
         print("El resultado de la potencia es", pot)
+
+        print(" ")
+         
+        op = int(input("Seleccione el número de la operación que desea realizar: "))
 
 op == 7
 print("Gracias")
