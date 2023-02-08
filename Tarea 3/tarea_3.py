@@ -2,7 +2,6 @@ from options import elec
 
 op = int(elec)
 
-
 while op <= 6:
 
     #SUMA
@@ -64,7 +63,11 @@ while op <= 6:
         print(" ")
          
         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
-        
+
+
+
+
+
     #MULTIPLICACION
       
     if op == 3:
@@ -106,6 +109,7 @@ while op <= 6:
             op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
 
     # División
+
     if op == 4:
         op = op + 1 
         print("**División**")
@@ -122,32 +126,28 @@ while op <= 6:
          
         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
 
+
+
+
+
     #FACTORIAL  
-         
-    # if op == 5:
-    #     while True:
-    #         print("**FACTORIAL**")
-
-    #         print(" ")
-    #         print("Ingrese el primer número: ")
-    #         a = int(input())
-    #         b = 1
-
-    #         for i in range(1, a+1):
-    #             b = b * i
-
-    #             print(f"El factorial de {a} es : ", end="")
-    #             print(b)
-            
-    #         if a < 0:
-    #             print("**ERORR EL NUMERO DEBE SER POSITIVO**")
-    #             print(f"Has colocado {a}")
-    #             break
-
-    #         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
-
-
-
+     
+    if op == 5:
+        while True: 
+            num = int(input("Ingrese un número mayor a 0: ")) 
+            factorial = 1
+            if num > 0: 
+                print("") 
+            else: 
+                print("Error, el número ingresado debe ser mayor a 0")   
+            for i in range(1, num + 1): 
+                factorial *= i 
+            if num > 0: 
+                print("El factorial de su número es", factorial) 
+                print("")
+            op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))   
+            break
+                
 
 
     #POTENCIA
