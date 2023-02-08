@@ -41,7 +41,7 @@ while op <= 6:
          print("La SUMA TOTAL es: ", suma)
          print(" ")
 
-         op = int(input("Seleccione el número de la operación que desea realizar: "))
+         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
    
          
           
@@ -63,7 +63,7 @@ while op <= 6:
 
         print(" ")
          
-        op = int(input("Seleccione el número de la operación que desea realizar: "))
+        op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
         
     #MULTIPLICACION
       
@@ -103,7 +103,7 @@ while op <= 6:
 
             print(" ")
          
-            op = int(input("Seleccione el número de la operación que desea realizar: "))
+            op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
 
     # División
     if op == 4:
@@ -120,7 +120,7 @@ while op <= 6:
 
         print(" ")
          
-        op = int(input("Seleccione el número de la operación que desea realizar: "))
+        op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
 
     #FACTORIAL  
          
@@ -143,7 +143,7 @@ while op <= 6:
             print(f"el factorial de {a} es: {b}")
             print(" ")
          
-            op = int(input("Seleccione el número de la operación que desea realizar: "))
+            op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
 
     #POTENCIA
 
@@ -160,7 +160,7 @@ while op <= 6:
 
         print(" ")
          
-        op = int(input("Seleccione el número de la operación que desea realizar: "))
+        op = int(input("Seleccione el número de la operación que desea realizaro 7 para salir: "))
 
 op == 7
 print("Gracias")
