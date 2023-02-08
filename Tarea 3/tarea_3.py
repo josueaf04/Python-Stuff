@@ -124,26 +124,31 @@ while op <= 6:
 
     #FACTORIAL  
          
-    if op == 5:
-        while True:
-            print("**FACTORIAL**")
+    # if op == 5:
+    #     while True:
+    #         print("**FACTORIAL**")
 
-            print(" ")
-            a = input("Hola, coloca un numero:")
-            b = 1
-            for i in range(1, a+1):
-                b = (b* i)
-                if a < 0:
-                    print("**ERORR EL NUMERO DEBE SER POSITIVO**")
-                    print(f"Has colocado {a}")
-                break
+    #         print(" ")
+    #         print("Ingrese el primer número: ")
+    #         a = int(input())
+    #         b = 1
 
-            else:
-             print(" ")
-            print(f"el factorial de {a} es: {b}")
-            print(" ")
-         
-            op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
+    #         for i in range(1, a+1):
+    #             b = b * i
+
+    #             print(f"El factorial de {a} es : ", end="")
+    #             print(b)
+            
+    #         if a < 0:
+    #             print("**ERORR EL NUMERO DEBE SER POSITIVO**")
+    #             print(f"Has colocado {a}")
+    #             break
+
+    #         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
+
+
+
+
 
     #POTENCIA
 
