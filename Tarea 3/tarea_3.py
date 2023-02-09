@@ -4,9 +4,10 @@ op = int(elec)
 
 while op <= 6:
 
-    file = open("logs.txt" , "a")
-    file.write
+    file = open("logs.txt" , "w")
+    file.write("BIENVENIDO A NUESTRO PROGRAMA\n")
 
+    
     #SUMA
     if op == 1:
          
@@ -19,6 +20,7 @@ while op <= 6:
          b = float(input()) 
          suma = a + b 
 
+         
          print(" ")
 
          print("Resultado: ", suma)
@@ -41,8 +43,10 @@ while op <= 6:
                 print(" ")
 
          print("La SUMA TOTAL es: ", suma)
-        #  file.write("El resultado de la suma es: " , suma)
-        #  print(" ")
+         suma = repr(suma)
+         file.write ("El resultado de la suma es: " + suma + "\n")
+        
+         print(" ")
 
          op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
    
@@ -62,13 +66,17 @@ while op <= 6:
         print("Ingrese el segundo número: ")
         b = float(input()) 
         resta = a - b 
+        resta = repr(resta)
         print("El resultado de la resta es", resta)
 
+        file.write ("El resultado de la resta es: " + resta +"\n" )
+
         print(" ")
-         
+    
+
         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
-        file.write("El resultado de la resta es", resta)
-        file.close
+        
+        
 
 
 
@@ -98,7 +106,7 @@ while op <= 6:
                  print("Ingrese otro numero número: ") 
                  a = float(input())
                 multi = multi * a
-
+                multi = repr(multi)
                 print(" ")
 
                 print("Resultado: ", multi)
@@ -106,8 +114,8 @@ while op <= 6:
                 respuesta = input("¿Desea terminar el programa?: ")
 
                 print(" ")
-
-                print("El resultado de la suma es", multi)
+                file.write ("El resultado de la multiplicacion es: " + multi + "\n")
+                print("El resultado de la multiplicacion es", multi)
 
             print(" ")
          
@@ -125,8 +133,10 @@ while op <= 6:
         print("Ingrese el segundo número: ")
         b = float(input())
         div = a / b 
+        div = repr(div)
         print("El resultado de la división es", div)
 
+        file.write ("El resultado de la division es: " + div + "\n")
         print(" ")
          
         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
@@ -139,6 +149,7 @@ while op <= 6:
      
     if op == 5:
         while True: 
+            print("**Factorial**")
             num = int(input("Ingrese un número mayor a 0: ")) 
             factorial = 1
             if num > 0: 
@@ -147,8 +158,11 @@ while op <= 6:
                 print("Error, el número ingresado debe ser mayor a 0")   
             for i in range(1, num + 1): 
                 factorial *= i 
+            factorial = repr(factorial)
             if num > 0: 
                 print("El factorial de su número es", factorial) 
+
+                file.write ("El resultado de la factorial es: " + factorial + "\n" )
                 print("")
             op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))   
             break
@@ -166,7 +180,10 @@ while op <= 6:
         print("Ingrese el segundo número: ")
         b = float(input()) 
         pot = a**b 
+        pot = repr(pot)
         print("El resultado de la potencia es", pot)
+
+        file.write("El resultado de la potencia es: " + pot + "\n")
 
         print(" ")
          
@@ -174,3 +191,5 @@ while op <= 6:
 
 op == 7
 print("Gracias por utilizar el programa")
+file.write("MUCHAS GRACIAS POR USAR NUESTRO PROGRAMA")
+file.close()
