@@ -4,6 +4,9 @@ op = int(elec)
 
 while op <= 6:
 
+    file = open("logs.txt" , "a")
+    file.write
+
     #SUMA
     if op == 1:
          
@@ -38,7 +41,8 @@ while op <= 6:
                 print(" ")
 
          print("La SUMA TOTAL es: ", suma)
-         print(" ")
+        #  file.write("El resultado de la suma es: " , suma)
+        #  print(" ")
 
          op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
    
@@ -63,7 +67,8 @@ while op <= 6:
         print(" ")
          
         op = int(input("Seleccione el número de la operación que desea realizar o 7 para salir: "))
-
+        file.write("El resultado de la resta es", resta)
+        file.close
 
 
 
