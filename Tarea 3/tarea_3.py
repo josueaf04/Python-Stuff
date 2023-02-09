@@ -168,4 +168,4 @@ while op <= 6:
         op = int(input("Seleccione el número de la operación que desea realizaro 7 para salir: "))
 
 op == 7
-print("Gracias")
+print("Gracias por utilizar el programa")
