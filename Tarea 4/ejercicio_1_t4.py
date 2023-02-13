@@ -2,7 +2,16 @@
 
 # def contar_caracteres(str): 
 str="P@#yn26at^&i5ve"
-for i in range(0, str+1):
-    if str.isnumeric():    
-        print("Números:", i) 
+for i in str: 
+    if i.isnumeric(): 
+        num = i
+        print("Números: ", num)
+    elif i.isalpha(): 
+        let = i
+        print("Letras:", let)
+    else: 
+        espe = i
+        print("Caracteres especiales", espe)            
         
+    
+   
