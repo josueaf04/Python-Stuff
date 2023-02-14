@@ -1,1 +1,0 @@
-# Ejercicio 3 (función que elimina todas las apariciones de un elemento en una lista) 
