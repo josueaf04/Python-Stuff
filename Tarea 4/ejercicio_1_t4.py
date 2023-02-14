@@ -25,34 +25,56 @@ print("")
 test_3 = contar_caracteres("Mi nombre es Josue,2004,,,,")
 print("")
 test_4 = contar_caracteres("")
+print("")
         
 
 # Ejercicio 2 (función que cuenta todas las apariciones de cada caracter en una string)    
 
-# def contar_apariciones(str):  
-#     str = "papaya"
-#     apa = 0   
-#     dict = {} 
-#     for i in str: 
+def contar_apariciones(str): 
+    
+    counter = 0
+    apa = {} 
+
+    for i in str: 
         
+        if i in apa.keys(): 
+                apa[i] += 1
+                counter += 1      
+        else: 
+            apa[i] = 1  
+            counter += 1
+
+  
+    print(apa)
+
+test = contar_apariciones("SanValentín")
+print("")
+test_2 = contar_apariciones("")
+print("")
+test_3 = contar_apariciones("9044882004")
+print("") 
+test_4 = contar_apariciones("'''''¿¿¿¿¿¿?????")
+print("")
+
+
 
 
 
 
 # Ejercicio 3 (función que elimina todas las apariciones de un elemento en una lista)   
-def eliminar_valor(list): 
+# def eliminar_valor(list): 
 
-    list = [20, 30, 40, 20, 5, 100, 5, 20] 
-    rep = 0
-    for i in list: 
-        if i in list: 
-            rep += 1
-            apa = list.count(i)
-        # if i >= 2:
-        #     new_list = [list.remove(i)]
-    print(apa)          
+#     list = [20, 30, 40, 20, 5, 100, 5, 20] 
+#     rep = 0
+#     for i in list: 
+#         if i in list: 
+#             rep += 1
+#             apa = list.count(i)
+#         # if i >= 2:
+#         #     new_list = [list.remove(i)]
+#     print(apa)          
 
-eliminar_valor(list)   
+# eliminar_valor(list)   
 
        
   
