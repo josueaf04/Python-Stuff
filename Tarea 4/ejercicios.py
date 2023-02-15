@@ -17,32 +17,32 @@
 # sumar 1 a las variables = 0, finalmente que se impriman los resultados.
 
 
-# def contar_caracteres(str): 
+def contar_caracteres(str): 
 
-#     num = 0
-#     let = 0
-#     espe= 0
+    num = 0
+    let = 0
+    espe= 0
 
-#     for i in str: 
-#         if i.isnumeric(): 
-#             num += 1     
-#         elif i.isalpha(): 
-#             let += 1   
-#         else: 
-#             espe += 1
+    for i in str: 
+        if i.isnumeric(): 
+            num += 1     
+        elif i.isalpha(): 
+            let += 1   
+        else: 
+            espe += 1
 
-#     print("Números: ", num) 
-#     print("Letras: ", let) 
-#     print("Caracteres especiales: ", espe)  
+    print("Números: ", num) 
+    print("Letras: ", let) 
+    print("Caracteres especiales: ", espe)  
 
-# test = contar_caracteres("pppp22222]]]]]")
-# print("")
-# test_2 = contar_caracteres("juicewrld999/////")
-# print("")
-# test_3 = contar_caracteres("Mi nombre es Josue,2004,,,,")
-# print("")
-# test_4 = contar_caracteres("")
-# print("")
+test = contar_caracteres("pppp22222]]]]]")
+print("")
+test_2 = contar_caracteres("juicewrld999/////")
+print("")
+test_3 = contar_caracteres("Mi nombre es Josue,2004,,,,")
+print("")
+test_4 = contar_caracteres("")
+print("")
         
 
 # Ejercicio 2 (función que cuenta todas las apariciones de cada caracter en una string)    
@@ -64,30 +64,30 @@
 # si i ya está en el diccionario que se le sume uno, al igual que a la variable = 0, si no lo está que se agregue y se le sume 1 a la variable = 0, finalmente
 # imprimir en pantalla el diccionario con los datos.
 
-# def contar_apariciones(str): 
+def contar_apariciones(str): 
     
-#     counter = 0
-#     apa = {} 
+    counter = 0
+    apa = {} 
 
-#     for i in str: 
+    for i in str: 
         
-#         if i in apa.keys(): 
-#                 apa[i] += 1
-#                 counter += 1      
-#         else: 
-#             apa[i] = 1  
-#             counter += 1
+        if i in apa.keys(): 
+                apa[i] += 1
+                counter += 1      
+        else: 
+            apa[i] = 1  
+            counter += 1
  
-#     print(apa)
+    print(apa)
 
-# test = contar_apariciones("SanValentín")
-# print("")
-# test_2 = contar_apariciones("")
-# print("")
-# test_3 = contar_apariciones("9044882004")
-# print("") 
-# test_4 = contar_apariciones("'''''¿¿¿¿¿¿?????")
-# print("")
+test = contar_apariciones("SanValentín")
+print("")
+test_2 = contar_apariciones("")
+print("")
+test_3 = contar_apariciones("9044882004")
+print("") 
+test_4 = contar_apariciones("'''''¿¿¿¿¿¿?????")
+print("")
 
 
 # Ejercicio 3 (función que elimina todas las apariciones de un elemento en una lista)   
@@ -116,9 +116,13 @@ def eliminar_valor(list):
     print(lista)
 
 test = eliminar_valor([100, 100, 100, 1])
+print("")
 test_2 = eliminar_valor(["perro", "gato", "serpiente", "serpiente", "cocodrilo", "perro"])
+print("")
 test_3 = eliminar_valor([",", "--", "//", ",", "!"])
+print("")
 test_4 = eliminar_valor([""])
+print("")
 
 
 # Ejercicio 4 (función que recibe una secuencia de números separados por coma por parte del usuario e 
@@ -139,27 +143,27 @@ test_4 = eliminar_valor([""])
 # la tupla vacía, convertirla en lista, agregarle el input. Generar una nueva tupla que sea = a la lista y sumarsela a la tupla vacía, finalmente imprimir el resultado.
 
 
-# def crear_lista_tupla(secuencia): 
+def crear_lista_tupla(secuencia): 
 
-#     for i in secuencia:
+    for i in secuencia:
    
-#         if i in secuencia: 
+        if i in secuencia: 
             
-#             lista = []
-#             lista.append(secuencia)
+            lista = []
+            lista.append(secuencia)
     
-#             tupla = ()
-#             convert = list(tupla)
-#             convert.append(secuencia)
-#             convertir = tuple(convert)
-#             tupla += convertir
+            tupla = ()
+            convert = list(tupla)
+            convert.append(secuencia)
+            convertir = tuple(convert)
+            tupla += convertir
     
-#             print("Lista: ", lista)
-#             print("Tupla: ", tupla) 
-#             break
+            print("Lista: ", lista)
+            print("Tupla: ", tupla) 
+            break
 
-# secuencia = (input("Ingrese una secuencia de números separados por comas: ")) 
-# crear_lista_tupla(secuencia)
+secuencia = (input("Ingrese una secuencia de números separados por comas: ")) 
+crear_lista_tupla(secuencia)
 
        
   
