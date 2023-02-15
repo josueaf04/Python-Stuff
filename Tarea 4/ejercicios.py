@@ -17,32 +17,32 @@
 # sumar 1 a las variables = 0, finalmente que se impriman los resultados.
 
 
-def contar_caracteres(str): 
+# def contar_caracteres(str): 
 
-    num = 0
-    let = 0
-    espe= 0
+#     num = 0
+#     let = 0
+#     espe= 0
 
-    for i in str: 
-        if i.isnumeric(): 
-            num += 1     
-        elif i.isalpha(): 
-            let += 1   
-        else: 
-            espe += 1
+#     for i in str: 
+#         if i.isnumeric(): 
+#             num += 1     
+#         elif i.isalpha(): 
+#             let += 1   
+#         else: 
+#             espe += 1
 
-    print("Números: ", num) 
-    print("Letras: ", let) 
-    print("Caracteres especiales: ", espe)  
+#     print("Números: ", num) 
+#     print("Letras: ", let) 
+#     print("Caracteres especiales: ", espe)  
 
-test = contar_caracteres("pppp22222]]]]]")
-print("")
-test_2 = contar_caracteres("juicewrld999/////")
-print("")
-test_3 = contar_caracteres("Mi nombre es Josue,2004,,,,")
-print("")
-test_4 = contar_caracteres("")
-print("")
+# test = contar_caracteres("pppp22222]]]]]")
+# print("")
+# test_2 = contar_caracteres("juicewrld999/////")
+# print("")
+# test_3 = contar_caracteres("Mi nombre es Josue,2004,,,,")
+# print("")
+# test_4 = contar_caracteres("")
+# print("")
         
 
 # Ejercicio 2 (función que cuenta todas las apariciones de cada caracter en una string)    
@@ -64,51 +64,62 @@ print("")
 # si i ya está en el diccionario que se le sume uno, al igual que a la variable = 0, si no lo está que se agregue y se le sume 1 a la variable = 0, finalmente
 # imprimir en pantalla el diccionario con los datos.
 
-def contar_apariciones(str): 
+# def contar_apariciones(str): 
     
-    counter = 0
-    apa = {} 
+#     counter = 0
+#     apa = {} 
 
-    for i in str: 
+#     for i in str: 
         
-        if i in apa.keys(): 
-                apa[i] += 1
-                counter += 1      
-        else: 
-            apa[i] = 1  
-            counter += 1
+#         if i in apa.keys(): 
+#                 apa[i] += 1
+#                 counter += 1      
+#         else: 
+#             apa[i] = 1  
+#             counter += 1
  
-    print(apa)
+#     print(apa)
 
-test = contar_apariciones("SanValentín")
-print("")
-test_2 = contar_apariciones("")
-print("")
-test_3 = contar_apariciones("9044882004")
-print("") 
-test_4 = contar_apariciones("'''''¿¿¿¿¿¿?????")
-print("")
+# test = contar_apariciones("SanValentín")
+# print("")
+# test_2 = contar_apariciones("")
+# print("")
+# test_3 = contar_apariciones("9044882004")
+# print("") 
+# test_4 = contar_apariciones("'''''¿¿¿¿¿¿?????")
+# print("")
 
 
 # Ejercicio 3 (función que elimina todas las apariciones de un elemento en una lista)   
 
+# Problema: Crear una función que elimine todas las apariciones de un elemento en una lista
+
+# Planeación: Usando la consola de comandos como interfaz, la función creada eliminará todas las apariciones de elementos en la lista.
+
+# Pseudocódigo: 
+# Se crea la función
+# Dentro de ella una lista vacía
+# Luego se genera un loop for para iterar sobre el parámetro de la función
+# Se hace un conteo de las repeticiones de cada valor contenido en el parámetro
+# Y mediante un condicional if el valor se repite solo una vez se agrega a la lista vacía, eliminando todas las apariciones de los que se repiten
+# Imprimir la lista.
+
+# Subproblemas: Crear la función, la lista vacía, generar el for y el if más el conteo, añadir los elementos que solo están una vez a la lista vacía e imprimir esa lista
+
 def eliminar_valor(list): 
-    valor = 0
-    list = [20, 30, 40, 20, 5, 100, 5, 20] 
+    lista = []
 
     for i in list: 
-        valor += 1
-        count = list.count(i)
+        if list.count(i) == 1: 
+            lista.append(i)   
+       
+    print(lista)
 
-        if count >= 2: 
-            list.remove(i)
-            
-    print(list)
+test = eliminar_valor([100, 100, 100, 1])
+test_2 = eliminar_valor(["perro", "gato", "serpiente", "serpiente", "cocodrilo", "perro"])
+test_3 = eliminar_valor([",", "--", "//", ",", "!"])
+test_4 = eliminar_valor([""])
 
-eliminar_valor(list)
-
- 
-# print(eliminar_valor(list))
 
 # Ejercicio 4 (función que recibe una secuencia de números separados por coma por parte del usuario e 
 # imprima una lista y una tupla que contengan dichos valores)
@@ -128,27 +139,27 @@ eliminar_valor(list)
 # la tupla vacía, convertirla en lista, agregarle el input. Generar una nueva tupla que sea = a la lista y sumarsela a la tupla vacía, finalmente imprimir el resultado.
 
 
-def crear_lista_tupla(secuencia): 
+# def crear_lista_tupla(secuencia): 
 
-    for i in secuencia:
+#     for i in secuencia:
    
-        if i in secuencia: 
+#         if i in secuencia: 
             
-            lista = []
-            lista.append(secuencia)
+#             lista = []
+#             lista.append(secuencia)
     
-            tupla = ()
-            convert = list(tupla)
-            convert.append(secuencia)
-            convertir = tuple(convert)
-            tupla += convertir
+#             tupla = ()
+#             convert = list(tupla)
+#             convert.append(secuencia)
+#             convertir = tuple(convert)
+#             tupla += convertir
     
-            print("Lista: ", lista)
-            print("Tupla: ", tupla) 
-            break
+#             print("Lista: ", lista)
+#             print("Tupla: ", tupla) 
+#             break
 
-secuencia = (input("Ingrese una secuencia de números separados por comas: ")) 
-crear_lista_tupla(secuencia)
+# secuencia = (input("Ingrese una secuencia de números separados por comas: ")) 
+# crear_lista_tupla(secuencia)
 
        
   
