@@ -44,8 +44,10 @@ def revealDealersHand():
 for _ in range(2): 
     deal_cards(dealer_hand)
     deal_cards(player_hand)
-    
+
 while playerIn or dealerIn: 
+    print("Ingrese su username: ")
+    username = input(str())
     print(f"La casa tiene: {revealDealersHand()} y *") 
     print(f"Tú tienes {player_hand}, el total de tu mazo es de {total(player_hand)}")
     if playerIn: 
@@ -65,7 +67,7 @@ while playerIn or dealerIn:
 
 if total(player_hand) == 21: 
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: 21, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}")
-    print("Blackjack! Felicidades haz ganado!!")
+    print(f"Blackjack!\nFelicidades {username} haz ganado!!")
 elif total(dealer_hand) == 21: 
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: {total(player_hand)}, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}") 
     print("Blackjack! La casa gana!!")    
@@ -74,13 +76,13 @@ elif total(player_hand) > 21:
     print("Te pasaste! La casa gana!!") 
 elif total(dealer_hand) > 21: 
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: {total(player_hand)}, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}")
-    print("El dealer se ha pasado! Felicidades haz ganado") 
+    print(f"El dealer se ha pasado! Felicidades {username} haz ganado") 
 elif 21 - total(dealer_hand) < 21 - total(player_hand): 
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: {total(player_hand)}, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}") 
     print("La casa gana!") 
 elif 21 - total(dealer_hand) > 21 - total(player_hand): 
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: {total(player_hand)}, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}") 
-    print("Felicidades haz ganado!")
+    print(f"Felicidades {username} haz ganado!")
                 
 
 
