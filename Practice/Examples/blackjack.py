@@ -84,13 +84,3 @@ elif 21 - total(dealer_hand) > 21 - total(player_hand):
     print(f"\nTú tienes {player_hand}, el total de tu mazo es de: {total(player_hand)}, mientras que la casa tiene {dealer_hand}, con un total de {total(dealer_hand)}") 
     print(f"Felicidades {username} haz ganado!")
                 
-
-
-    
-
-
-
-
-
-
-
