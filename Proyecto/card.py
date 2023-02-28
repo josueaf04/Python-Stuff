@@ -6,5 +6,5 @@ class card:
         self.suit = suit
 
     def __str__(self): 
-        return "" .join(self.rank, self.suit)
-            
+        return "" .join([self.rank, self.suit])
+    
