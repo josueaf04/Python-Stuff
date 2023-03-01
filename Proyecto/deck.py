@@ -1,4 +1,4 @@
-#Clase del objecto mazo 
+#Clase del objecto deck 
 
 import card  
 import random
@@ -19,6 +19,4 @@ class deck:
     # Función que reparte las cartas 
     def deal(self): 
         onecard = self.deck.pop()
-        return onecard        
-
-            
+        return onecard                    
