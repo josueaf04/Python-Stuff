@@ -24,7 +24,7 @@ username = input()
 print("")
 playerhand = hand.hand(username)
 dealerhand = hand.hand('La casa')
-# Se le agregan dos cartas a "dealerhand"
+# Se le agrega una carta a "dealerhand"
 
 dealerhand.add_new_card(deck.deal())
 dealerhand.printhand()
@@ -42,17 +42,23 @@ print('El valor de tu mano es de: \n', playerhand.value)
 if playerhand.value > 21: 
         hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
           'J': 10, 'Q': 10, 'K': 10,}
+# Se crea un loop para que el usuario indique qué acción desea tomar
 
 while True:
-        
+         
         choice = input('Selecciona la opción que desees: [S]olicitar, [P]lantarte, o [A]bandonar el juego: \n')
         print("")
+# Si el usuario seleccione 'S' como opción se le entrega una nueva carta
         if choice == 'S': 
                 playerhand.add_new_card(deck.deal())
                 playerhand.printhand()
                 print(f'El nuevo valor de tu mano es: {playerhand.value}\n')
+# Se le agrega la otra carta a la mano del dealer
+
                 dealerhand.add_new_card(deck.deal())
                 dealerhand.printhand()
+# Se ejecuta la lógica que determina al ganador
+
                 if dealerhand.value > 21: 
                         hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
                         'J': 10, 'Q': 10, 'K': 10,}         
@@ -76,7 +82,9 @@ while True:
                         wins + 1 
                         print(f"Felicidades {username}! Haz ganado\!") 
                
-        elif choice == 'P': 
+        elif choice == 'P':
+# Si el usuario selecciona 'P' como su opción, se queda con la mano actual y se le agrega la faltante a la casa
+
                 dealerhand.add_new_card(deck.deal())
                 dealerhand.printhand()
                 print(f'El valor de la mano de la casa es: {dealerhand.value}')
@@ -98,9 +106,9 @@ while True:
                 elif 21 - playerhand.value < 21 - dealerhand.value:    
                         wins + 1 
                         print(f"Felicidades {username}! Haz ganado!")
+# Finalmenmte si el usuario selecciona 'A' como su opción, el juego se termina
 
-        else:
+        elif choice == 'A':
                 print('Gracias por jugar, vuelve pronto!\n')
-                False
                 break
                 
