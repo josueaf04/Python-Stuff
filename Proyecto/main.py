@@ -6,6 +6,8 @@ import hand
 wins = 0
 losses = 0
 
+playerin = True
+
 # Se mezcla el deck
 print('Bienvenido a Blackjack\n')
 # print('1 : 1 Jugador / 2 : 2 Jugadores')
@@ -57,15 +59,17 @@ elif dealerhand.value > 21:
 elif 21 - dealerhand.value < 21 - playerhand.value: 
         print(f"La casa gana!")
         losses + 1
+        print()
 elif 21 - playerhand.value < 21 - dealerhand.value:    
         print(f"Felicidades {username}! Haz ganado!")
         wins + 1 
 elif playerhand.value == dealerhand.value: 
         print('Empate!')        
 
-while not quit: 
+while True:
         choice = input('Selecciona la opción que desees: [H]it, [S]tand, or [Q]uit: ')
-        if choice == 'H' or 'h': 
+        
+        if choice == 'H': 
                 playerhand.add_new_card(deck.deal())
                 playerhand.printhand()
                 if playerhand.value > 21: 
@@ -91,3 +95,17 @@ while not quit:
                 elif 21 - playerhand.value < 21 - dealerhand.value:    
                         print(f"Felicidades {username}! Haz ganado!")
                         wins + 1 
+
+        elif choice == 'S':
+                while (dealerhand.value)<17:
+                        dealerhand.add_new_card
+                        dealerhand.printhand
+                        if (dealerhand.value)>21:
+                                print('Repartidor PERDIO!')
+                                wins += 1
+                                (dealerhand,playerhand)
+
+        else:
+                print("Gracias  jugar!")
+                False
+                break
