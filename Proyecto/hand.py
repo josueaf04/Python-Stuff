@@ -15,13 +15,10 @@ class hand:
         self.value = 0 
 # Función que imprime la mano del usuario y la casa.
 
-    def printhand(self, isdealer = False): 
+    def printhand(self): 
         print(f'La mano de {self.playername} es: \n')
         for i in range(0, len(self.cardlist)): 
-            if isdealer and i == 0: 
-                print('* *')
-            else: 
-                print(self.cardlist[i].__str__(),'\n')
+            print(self.cardlist[i].__str__(),'\n')
 # Función que añade la carta con su respectivo valor.
 
     def add_new_card(self, card): 
