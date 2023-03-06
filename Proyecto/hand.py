@@ -1,12 +1,14 @@
 # Clase del objeto hand
 
+
 # Constante
 values = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
           'J': 10, 'Q': 10, 'K': 10, 'A': 11}
 
+
 class hand: 
 # Función inicializadora
-
+    
     def __init__(self, playername): 
         self.playername = playername
         self.cardlist = []
@@ -25,3 +27,5 @@ class hand:
     def add_new_card(self, card): 
         self.cardlist.append(card)
         self.value += values[card.rank]
+    
+    
