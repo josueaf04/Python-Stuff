@@ -81,9 +81,9 @@ while True:
                 elif 21 - playerhand.value < 21 - dealerhand.value:    
                         wins + 1 
                         print(f"Felicidades {username}! Haz ganado\!") 
+# Si el usuario selecciona 'P' como su opción, se queda con la mano actual y se le agrega la faltante a la casa
                
         elif choice == 'P':
-# Si el usuario selecciona 'P' como su opción, se queda con la mano actual y se le agrega la faltante a la casa
 
                 dealerhand.add_new_card(deck.deal())
                 dealerhand.printhand()
