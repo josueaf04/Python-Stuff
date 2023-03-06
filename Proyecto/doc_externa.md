@@ -1,5 +1,3 @@
-**
-
 ***Autores***:  Andy Foster Morgan y Josué Angulo Frino
 
 ***Nombre del proyecto:*** *Proyecto Blackjack.*
