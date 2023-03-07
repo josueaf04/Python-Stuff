@@ -1,4 +1,6 @@
 # Main page
+# Meter todo main en una función main
+# Separar el código de main en funciones
 
 import deck
 import hand
@@ -111,4 +113,4 @@ while True:
         elif choice == 'A':
                 print('Gracias por jugar, vuelve pronto!\n')
                 break
-                
+               
