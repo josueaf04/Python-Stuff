@@ -286,4 +286,4 @@ main()
 # # Si el usuario selecciona una opción no listada, se le solicita que ingrese una opción listada
 #                 else: 
 #                         print('Por favor escriba una de las opciones listadas: [S]olicitar, [P]lantarte, o [A]bandonar el juego:')
-# main()                
+# main()      
