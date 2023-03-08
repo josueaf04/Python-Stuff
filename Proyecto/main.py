@@ -5,11 +5,12 @@ import deck
 import hand
 import time
 import os
+
 def clear(): 
         if os.name == 'nt': 
                 os.system('CLS')
-        if os.name == 'posiX': 
-                os.system == ('clear')              
+        if os.name == 'posix': 
+                os.system('clear')         
 
 def main(): 
         import deck
@@ -49,8 +50,8 @@ def players():
         if players == 1: 
                         print('INGRESE EL USERNAME QUE DESEA UTILIZAR:  \n')
                         username = input()
-                        playerhand = hand.hand(username)
-                        dealerhand = hand.hand('LA CASA')
+                        playerhand = hand.Hand(username)
+                        dealerhand = hand.Hand('LA CASA')
                         
                         print('INICIANDO LA PARTIDA... \n')
                         time.sleep(3)
@@ -229,7 +230,7 @@ def players():
 
 main()
 
- print(hola)
+ 
 
 
 

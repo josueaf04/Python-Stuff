@@ -19,7 +19,6 @@ class deck:
             print("ADIOS!")
             exit()
 
-<<<<<<< HEAD
     def shuffle(self): 
         random.shuffle(self.deck)
 # Función que reparte las cartas 
@@ -28,26 +27,4 @@ class deck:
         onecard = self.deck.pop()
         return onecard                    
     
-    print(hola)
-=======
-    def deal(deck):
-        hand = []
-        for i in range(2):
-            random.shuffle(deck)
-            card = deck.pop()
-            if card == 11:card = "J"
-            if card == 12:card = "Q"
-            if card == 13:card = "K"
-            if card == 14:card = "A"
-            hand.append(card)
-        return hand
     
-    def hit(hand):
-        card = deck.pop()
-        if card == 11:card = "J"
-        if card == 12:card = "Q"
-        if card == 13:card = "K"
-        if card == 14:card = "A"
-        hand.append(card)
-        return hand
->>>>>>> 1a8b981423b8edaa76a0a6c31a10521d4cb536d3
