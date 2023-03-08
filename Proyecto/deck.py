@@ -13,10 +13,14 @@ class deck:
         for suit in suits: 
             for rank in ranks: 
                 self.deck.append(card.card(suit, rank))
+
+                
 # Función que mezcla el deck
 
     def shuffle(self): 
         random.shuffle(self.deck)
+
+
 # Función que reparte las cartas 
 
     def deal(self): 

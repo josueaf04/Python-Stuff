@@ -24,5 +24,3 @@ class hand:
     def add_new_card(self, card): 
         self.cardlist.append(card)
         self.value += values[card.rank]
-    
-    
