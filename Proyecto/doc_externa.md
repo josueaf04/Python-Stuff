@@ -18,7 +18,7 @@ Módulo "hand": Presenta la constante "values". Contiene la clase hand, cuya fun
 
 ## ***Manual de usuario***
 
-
+hola
 
 
 

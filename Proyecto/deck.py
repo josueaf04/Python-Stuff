@@ -22,3 +22,5 @@ class deck:
     def deal(self): 
         onecard = self.deck.pop()
         return onecard                    
+    
+    hola

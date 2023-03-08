@@ -11,3 +11,5 @@ class card:
     def __str__(self): 
         return "" .join([self.rank, self.suit])
     
+    hola
+    
