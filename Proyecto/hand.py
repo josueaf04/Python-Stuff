@@ -16,7 +16,7 @@ class hand:
 # Función que imprime la mano del usuario y la casa.
 
     def printhand(self): 
-        print(f'La mano de {self.playername} es: \n')
+        print(f'LA MANO DE {self.playername} ES: \n')
         for i in range(0, len(self.cardlist)): 
             print(self.cardlist[i].__str__(),'\n')
 # Función que añade la carta con su respectivo valor.
