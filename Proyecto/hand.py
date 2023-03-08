@@ -25,6 +25,7 @@ class Hand:
         (main.wins) 
         (main.losses)
 
+<<<<<<< HEAD
         if card.card.total(player_hand) == 21:
             utils.utils.print_results(dealer_hand, player_hand)
             print ("Felicitaciones! Tu tienes un Blackjack!\n")
@@ -50,3 +51,16 @@ class Hand:
             print ("Felicitaciones! Tu puntaje es mayor al del repartidor. GANASTE!\n")
             main.wins += 1
         
+=======
+    def printhand(self): 
+        print(f'LA MANO DE {self.playername} ES: \n')
+        for i in range(0, len(self.cardlist)): 
+            print(self.cardlist[i].__str__(),'\n')
+# Función que añade la carta con su respectivo valor.
+
+    def add_new_card(self, card): 
+        self.cardlist.append(card)
+        self.value += values[card.rank]
+    
+    
+>>>>>>> ecc01ad07ff2d50508c2fc07a5337f9bd00a18c4

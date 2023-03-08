@@ -1,4 +1,5 @@
 # Módulo con funciones útiles
+<<<<<<< HEAD
 import main 
 import card
 
@@ -17,6 +18,11 @@ class utils:
 
  
 
+=======
+def play_again(): 
+        repeat = (input('Desea jugar[N]ueva partida o [S]alir del juego: '))  
+        if repeat == 'N': 
+>>>>>>> ecc01ad07ff2d50508c2fc07a5337f9bd00a18c4
     
 
 
