@@ -1,31 +1,52 @@
 # Clase del objeto hand
+import main
+import card
+import utils
+import deck
 
 
-# Constante
-values = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-          'J': 10, 'Q': 10, 'K': 10, 'A': 11}
 
+class Hand:
+    def blackjack(dealer_hand, player_hand):
+        (main.wins)
+        (main.losses)
+        if card.card.total(player_hand) == 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Felicitaciones! Tu tienes un Blackjack!\n")
+            main.wins += 1
+            deck.deck.play_again()
+        elif card.card.total(dealer_hand) == 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Perdon, perdiste. el repartidor tiene un blackjack.\n")
+            main.losses += 1
+            deck.deck.play_again()
 
-class hand: 
-# Función inicializadora
-    
-    def __init__(self, playername): 
-        self.playername = playername
-        self.cardlist = []
-        self.value = 0 
-# Función que imprime la mano del usuario y la casa.
+    def score(dealer_hand, player_hand):
+        (main.wins) 
+        (main.losses)
 
-    def printhand(self, isdealer = False): 
-        print(f'La mano de {self.playername} es: \n')
-        for i in range(0, len(self.cardlist)): 
-            if isdealer and i == 0: 
-                print('* *')
-            else: 
-                print(self.cardlist[i].__str__(),'\n')
-# Función que añade la carta con su respectivo valor.
-
-    def add_new_card(self, card): 
-        self.cardlist.append(card)
-        self.value += values[card.rank]
-    
-    
+        if card.card.total(player_hand) == 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Felicitaciones! Tu tienes un Blackjack!\n")
+            main.wins += 1
+        elif card.card.total(dealer_hand) == 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Perdon, perdiste. el repartidor tiene un blackjack.\n")
+            main.losses += 1
+        elif card.card.total(player_hand) > 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Perdon, perdiste.\n")
+            main.losses += 1
+        elif card.card.total(dealer_hand) > 21:
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Felicitaciones! GANASTE!\n")
+            main.wins += 1
+        elif card.card.total(player_hand) < card.card.total(dealer_hand):
+            utils.utils.print_results(dealer_hand, player_hand)
+            print (" Tu resultado es menor al del repartidor. PERDISTE!\n")
+            main.losses += 1
+        elif card.card.total(player_hand) > card.card.total(dealer_hand):
+            utils.utils.print_results(dealer_hand, player_hand)
+            print ("Felicitaciones! Tu puntaje es mayor al del repartidor. GANASTE!\n")
+            main.wins += 1
+        
