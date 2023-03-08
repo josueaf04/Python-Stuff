@@ -1,0 +1,582 @@
+[33mcommit 3a6046e3965e4208028e425345e92a28288ba13a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 96b9c36 ecc01ad
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Mar 7 21:22:00 2023 -0600
+
+    New main
+
+[33mcommit 96b9c3603e9e2cbc27426d5274daf6c6a0474768[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Mar 7 21:19:31 2023 -0600
+
+    New Add
+
+[33mcommit ecc01ad07ff2d50508c2fc07a5337f9bd00a18c4[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Mar 7 21:18:40 2023 -0600
+
+    Finished a few things
+
+[33mcommit f29b5021bd85948a85c2075f0b0df36dd24eb6bd[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 19:40:15 2023 -0600
+
+    Reminder de recomendaciones del profe
+
+[33mcommit 63ca394019e7a1c7528510766ee0b02510eab09a[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 00:18:47 2023 -0600
+
+    Commented main page 2.0
+
+[33mcommit ecea08172766192c8d3f0f754a6b768ad4d656f8[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 00:17:30 2023 -0600
+
+    Commented main page
+
+[33mcommit 9ad06a48836d27ac710d236d62625d9fe4bf2004[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 00:05:33 2023 -0600
+
+    doc externa semi finished
+
+[33mcommit a5c612e462b7da1523f57e97f24a02a910a07720[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 00:04:32 2023 -0600
+
+    doc externa
+
+[33mcommit 5d6f2ba2c4b14ea023cb72297b0ccf65ff9fccae[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Mar 6 00:00:28 2023 -0600
+
+    Finished idea
+
+[33mcommit 28a6beebb785472d76ba72d2c4c9937c6dea8f46[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Mar 5 21:45:46 2023 -0600
+
+    Add new choices
+
+[33mcommit 46751aee9aed5fc3c8c7bb74ee1c0051c28ee146[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Mar 5 20:42:23 2023 -0600
+
+    Added some logic
+
+[33mcommit 5a3bb463a2600363eea57328f3e7c4c2dc3abdd8[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Thu Mar 2 18:41:19 2023 -0600
+
+    Winner idea
+
+[33mcommit bed8222183f3fc3c491587a43ccc5978d30b3b42[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Thu Mar 2 17:29:40 2023 -0600
+
+    Commented
+
+[33mcommit 51cfc00eba4df6387512aed6a5b87c75f7419b4d[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 20:19:10 2023 -0600
+
+    A few adjustments
+
+[33mcommit c936aa935dd91ae5fc87daa2e762ec15b5890f3c[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 18:59:57 2023 -0600
+
+    Finished main idea
+
+[33mcommit 1638fa53d356f61ffde96c25da41f026285183f2[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 18:54:10 2023 -0600
+
+    Finished main idea
+
+[33mcommit 9458e87ec12f043c143e4bb1cfdfeacde365d0e2[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 13:42:16 2023 -0600
+
+    Created class deck
+
+[33mcommit 53798149ac928af51c4909419ecb88b195adbd83[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 12:59:44 2023 -0600
+
+    Finished class card
+
+[33mcommit 05087795429f9a27a95bca3d248ba07797cd4e18[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 12:58:11 2023 -0600
+
+    Created class card
+
+[33mcommit a679f88d9bd488d2d622c9a48ec0a9a00887ca0c[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 12:57:00 2023 -0600
+
+    Created class "card"
+
+[33mcommit fa74914d88e743e3b06742cf97c940f79444bbf8[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 28 12:41:45 2023 -0600
+
+    idk
+
+[33mcommit 4c5ece50ac79e55a3faa99076eb6ac5ce5a7c287[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Feb 27 17:33:51 2023 -0600
+
+    Added the user input
+
+[33mcommit 533389b3ce922230972375ebed04576b2322494e[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Feb 27 15:48:12 2023 -0600
+
+    Created the blackjack main idea
+
+[33mcommit 0b26325e4d6a9f9e19035874fe99477f41b1c8c9[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 15 10:02:09 2023 -0600
+
+    Finished
+
+[33mcommit a404dbdd3ac5f5de2ed934b66d410cb89008a647[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 15 09:59:57 2023 -0600
+
+    Finished ex_3
+
+[33mcommit c9aebb7f1eb8ca664ed224b842c984f637142992[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 14 20:17:37 2023 -0600
+
+    Finished
+
+[33mcommit 55ce7eb5f2f2c05a642f3ea0297245baff2fb03b[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 14 11:19:44 2023 -0600
+
+    Finished ex_2
+
+[33mcommit 2b715292380bf51d04ee3a15f37f8c94606bb143[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Feb 13 21:12:56 2023 -0600
+
+    Finished #1
+
+[33mcommit 1b4564c22c25d258298879ae5c7c622c7e874b30[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Feb 13 14:43:24 2023 -0600
+
+    Idea
+
+[33mcommit 1665c21e059f28d6a2ac77f6745427d73506e7d6[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Mon Feb 13 12:09:36 2023 -0600
+
+    Finished idea
+
+[33mcommit 50ea8cb7de0d22597236455d20c3bcafebb3740d[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sat Feb 11 12:30:57 2023 -0600
+
+    Idea
+
+[33mcommit 11501b9a0e011ac5175bcf3b522369258c581042[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sat Feb 11 11:16:41 2023 -0600
+
+    Created files
+
+[33mcommit f23e6b4335a32127ef2238b6599c8fd1f77d6314[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sat Feb 11 11:15:30 2023 -0600
+
+    Created files
+
+[33mcommit 712e2d29c153d9766f6a89a5544780f7f64b4c42[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:43:03 2023 -0600
+
+    Created ej 1
+
+[33mcommit f7093ef1126167273d77ba962bf6d8e108c29b6c[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:32:15 2023 -0600
+
+    Created Tarea 4
+
+[33mcommit cf61043ff4f2c32632d9f3c5292e25fd35abb0de[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:28:21 2023 -0600
+
+    Create Tarea 4
+
+[33mcommit 2fc4a9d6b081128bccf460b579a52e9238587cef[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:26:28 2023 -0600
+
+    Delete Tarea 4
+
+[33mcommit 7f23b1bcbf35402448fc6ff0a188fd32c4869991[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:25:29 2023 -0600
+
+    Create Tarea 4
+
+[33mcommit 98fc024306a21362a0561cd5cbf01bc03b654576[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:23:32 2023 -0600
+
+    Delete Tarea 4
+
+[33mcommit 48ac2a8cb54a2272bf964bb30c566c0954b1400c[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Sat Feb 11 10:23:18 2023 -0600
+
+    Create Tarea 4
+
+[33mcommit 95bb4a1200385b016ddfecb7f708131c06d15deb[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Wed Feb 8 21:26:24 2023 -0600
+
+    HAY NIVELES DE NIVELES DE NIVELES
+
+[33mcommit b6e83e62a4e8131bae271dde58d54f85ee1551d9[m
+Merge: 8e878d9 f6b7fbe
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:41:55 2023 -0600
+
+    Merge branch 'main' of https://github.com/josueaf04/Python-Stuff
+
+[33mcommit 8e878d90e09f63fed33a078d361bd6eae11d0b19[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:41:51 2023 -0600
+
+    Pruebas
+
+[33mcommit f6b7fbe5348eeb02e8a77313886c9b7858fcb536[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:22:46 2023 -0600
+
+    Delete logs.py
+
+[33mcommit edcfa2ddac42ac487d142b55d48d85251b6aceef[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:20:20 2023 -0600
+
+    Create logs.py
+
+[33mcommit 2e62448bad1b795514caeb69b1717f592faa30d8[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:14:56 2023 -0600
+
+    Hay niveles de niveles
+
+[33mcommit f684a33abbbaeb7d6a42fece24722c3e00896745[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 8 20:12:33 2023 -0600
+
+    Deleted
+
+[33mcommit 1ea975930c29baa1e1fe426cb08c6b07942c1177[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 7 21:08:06 2023 -0600
+
+    Hay Niveles de niveles
+
+[33mcommit c7d22cfc5e367c271a0b4163d81fc9a858b658c1[m
+Merge: 862ccfe 1fae811
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 7 20:57:31 2023 -0600
+
+    Hay lvls
+
+[33mcommit 862ccfe56dc3ed05fc3aeb2521369836d0a3fe06[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 7 20:56:03 2023 -0600
+
+    Hay Niveles
+
+[33mcommit 1fae8119e52cfab3139473ec0c8ce188fc869db8[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Feb 7 20:44:05 2023 -0600
+
+    Hay niveles
+
+[33mcommit d2e05f16f7fd3557f16aa0b06195c8df51044c0f[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Feb 7 20:17:35 2023 -0600
+
+    HAY NIVELES
+
+[33mcommit c568c9efcf77d8469ab48baa1348e5c6698e256e[m
+Merge: ecf4f8e 1388cba
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Feb 7 20:13:48 2023 -0600
+
+    a
+
+[33mcommit ecf4f8ebdb2b488c8b48d13742f7af0e5536351d[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Feb 7 20:11:35 2023 -0600
+
+    Hay niveles
+
+[33mcommit 55971208da3eac4c277f67f278c9cd1b8962a4db[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Tue Feb 7 20:10:49 2023 -0600
+
+    Nuevo
+
+[33mcommit 1388cba1857839eb68fc407e8b1d4291fc2c45a0[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 7 20:07:22 2023 -0600
+
+    Finished
+
+[33mcommit 1219618c32924aa6169be0fd21ee6b30b43ba0b4[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Tue Feb 7 20:06:33 2023 -0600
+
+    Finished
+
+[33mcommit ebd79d53f15978da348142d98239c4e215cedfce[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 21:53:18 2023 -0600
+
+    HAY NIVELES
+
+[33mcommit d350484b0af38a494fdf4ec10cc75c51951dd7bd[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 19:40:53 2023 -0600
+
+    HAY NIVELES
+
+[33mcommit 727ce5dbc7877907a06973b657611936f2cba9ea[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 19:34:29 2023 -0600
+
+    nuevo
+
+[33mcommit bd8d3430a23217a7694a402801f24885d5147110[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 19:28:21 2023 -0600
+
+    nuevo
+
+[33mcommit 59a9fc6242e6ab9793d7ab6930f73670c472c4c4[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 19:27:29 2023 -0600
+
+    nuevo
+
+[33mcommit 3f088564e36f6d3103f22b9a1ab1b0e541d59ae9[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 19:03:47 2023 -0600
+
+    fixes
+
+[33mcommit 7c93708f57110f698bc2e0bd84c5057954719c49[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 19:03:02 2023 -0600
+
+    fixes
+
+[33mcommit 8cbfcdd959bb7c59f31923f0851e122a4151cd96[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 18:32:06 2023 -0600
+
+    Modiefied tarea_.py
+
+[33mcommit ddfe8c5022e12c7ef6e7f1ebbb172fbc6a320b23[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 18:26:45 2023 -0600
+
+    fixes
+
+[33mcommit 1e075b6fe6d9521035a86c346f390396e541fd63[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 18:24:05 2023 -0600
+
+    Added division
+
+[33mcommit 37cd08ff9a47a2374aa5c47c76176d5caf7c5935[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 18:20:20 2023 -0600
+
+    Nuevo
+
+[33mcommit 7e21b693482daa13ed5c41ba561c2ff5d9008876[m
+Merge: da4f624 c6a8d0b
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 17:25:07 2023 -0600
+
+    nuevo
+
+[33mcommit da4f624160b9d07a5eea9c3cabc9a530694d5f11[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Sun Feb 5 17:24:32 2023 -0600
+
+    nuevo
+
+[33mcommit c6a8d0b8f7430eecb8e1e19dcdf3fcfd9a34fe93[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 15:30:08 2023 -0600
+
+    Added potencia
+
+[33mcommit 9d2db6fe3eaae1642c3ea4c3ccc945bf7c3fb3b3[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Feb 5 15:07:50 2023 -0600
+
+    Test
+
+[33mcommit dad70e43ea9a4bca6af5039ece5b2a216725970a[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 20:53:48 2023 -0600
+
+    NUEVO
+
+[33mcommit 9d90011a9c088f3080a6214fb7be3c71d81f9502[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:45:24 2023 -0600
+
+    nuevo
+
+[33mcommit a8202511460061ea27e4f7c5905743cec5784cf4[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:44:48 2023 -0600
+
+    nuevo
+
+[33mcommit 8201c24a08a0f1f750d3171e4a72791610d318bd[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:43:30 2023 -0600
+
+    NUevo
+
+[33mcommit f5648a5db6980ef6a1bad31c8c4865e9e25e1474[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Thu Feb 2 19:37:10 2023 -0600
+
+    Resta
+
+[33mcommit b26d286791bc8a5a7b1c06ad0f2e4b39238da279[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:29:46 2023 -0600
+
+    a
+
+[33mcommit 3dcc6669232c737904b6c06b1197ab983b7c5306[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:29:19 2023 -0600
+
+    ACTUAl
+
+[33mcommit f32b240eafbf658eb55dc714855defaff41c3e63[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 19:00:24 2023 -0600
+
+    actual
+
+[33mcommit 89e7642799e6bee67dbb53139091f7db6eb228df[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Thu Feb 2 18:32:29 2023 -0600
+
+    finished
+
+[33mcommit 0a9e356fb6e1686a39aa8feec3d0fb52d841c26e[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Thu Feb 2 18:31:44 2023 -0600
+
+    Module created
+
+[33mcommit 64cfe60ce5fb32a326d188c2215f607b64175ea1[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Thu Feb 2 18:30:00 2023 -0600
+
+    NUEVO
+
+[33mcommit 3657b7ab253ca6f2ba23b2f5bce0fac72753281d[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 19:42:21 2023 -0600
+
+    main idea finished
+
+[33mcommit b7b5cc24b254a8fe7539ddc42cc4f5e01bfd2551[m
+Merge: 06d76d3 7924f3b
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 19:30:56 2023 -0600
+
+    Merge branch 'main' of https://github.com/josueaf04/Python-Stuff
+
+[33mcommit 06d76d3d8ae2a96ca751a2a6cf6eab25a69528c4[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 19:30:52 2023 -0600
+
+    texto
+
+[33mcommit 7924f3b2c381fe04712f9934bd0d8ed121f13c8d[m
+Author: Andy-FM31 <andyshamalfoster@gmail.com>
+Date:   Wed Feb 1 19:19:04 2023 -0600
+
+    LISTO
+
+[33mcommit 15323c6c354ea3a5afa0d729130a315c919011b6[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:46:24 2023 -0600
+
+    txt
+
+[33mcommit 3ef50a0f91553db8faf068e6ff93d77fd4306290[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:32:46 2023 -0600
+
+    last last fix
+
+[33mcommit 99686cd4740135fe78706e95e09f3febcd059dd1[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:31:57 2023 -0600
+
+    last fix
+
+[33mcommit 8c8023935ccee8cadf1eb00e220fbf79abffa510[m
+Merge: ffd44e7 348d72e
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:30:41 2023 -0600
+
+    Merge branch 'main' of https://github.com/josueaf04/Python-Stuff
+
+[33mcommit ffd44e7c72b76ed0cbeb6327030735262774dba9[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:30:37 2023 -0600
+
+    Named the files
+
+[33mcommit 348d72e12a3d30aab4b4a235e02a9432bb503eb6[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:23:40 2023 -0600
+
+    Delete Tarea 3
+
+[33mcommit bf2d69eb11ad28a0623d365d726a768de305dc2f[m
+Author: Josu Angulo <davidangulofz@gmail.com>
+Date:   Wed Feb 1 18:23:22 2023 -0600
+
+    Create Tarea 3
+
+[33mcommit 8abf730da1a3bd3c218620f4ff883760d158c059[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Jan 29 17:25:28 2023 -0600
+
+    Last last fixes
+
+[33mcommit 98de75aed6306790c3bdc72d684f76bc69625da8[m
+Author: davidangulofz@gmail.com <davidangulofz@gmail.com>
+Date:   Sun Jan 29 17:18:52 2023 -0600
+
+    Las

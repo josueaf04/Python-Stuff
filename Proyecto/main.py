@@ -11,8 +11,8 @@ import utils
 def clear(): 
         if os.name == 'nt': 
                 os.system('CLS')
-        if os.name == 'posiX': 
-                os.system == ('clear')              
+        if os.name == 'posix': 
+                os.system('clear')         
 
 def main(): 
         
@@ -53,8 +53,8 @@ def players():
         if players == 1: 
                         print('INGRESE EL USERNAME QUE DESEA UTILIZAR:  \n')
                         username = input()
-                        playerhand = hand.hand(username)
-                        dealerhand = hand.hand('LA CASA')
+                        playerhand = hand.Hand(username)
+                        dealerhand = hand.Hand('LA CASA')
                         
                         print('INICIANDO LA PARTIDA... \n')
                         time.sleep(3)
@@ -228,8 +228,38 @@ def players():
                                 
 
 main()
+
+ 
+
+
+
                                       
 
+<<<<<<< HEAD
+=======
+                        # if dealerhand.value > 21: 
+                        #         hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
+                        #         'J': 10, 'Q': 10, 'K': 10,}         
+                        # print('El valor de la mano de La casa es de: ', dealerhand.value)
+                        # if dealerhand.value == 21: 
+                        #         losses + 1
+                        #         print(f"Blackjack! La casa gana!")
+                        # elif playerhand.value == 21: 
+                        #         print(f"Blackjack! Felicidades {username} haz ganado!")  
+                        #         wins + 1
+                        # elif playerhand.value > 21: 
+                        #         losses + 1
+                        #         print(f"Te pasaste! La casa gana!")
+                        # elif dealerhand.value > 21: 
+                        #         wins + 1 
+                        #         print(f"{dealerhand} se ha pasado! Felicidades {username}, haz ganado\! ")
+                        # elif 21 - dealerhand.value < 21 - playerhand.value: 
+                        #         print(f"La casa gana!")
+                        #         losses + 1
+                        # elif 21 - playerhand.value < 21 - dealerhand.value:    
+                        #         wins + 1 
+                        #         print(f"Felicidades {username}! Haz ganado\!") 
+>>>>>>> a716420992fe64056fbc49c8ece1dfb02e345c1a
 # Si el usuario selecciona 'P' como su opción, se queda con la mano actual y se le agrega la faltante a la casa
                 
 #                 elif choice == 'P':
@@ -263,4 +293,4 @@ main()
 # # Si el usuario selecciona una opción no listada, se le solicita que ingrese una opción listada
 #                 else: 
 #                         print('Por favor escriba una de las opciones listadas: [S]olicitar, [P]lantarte, o [A]bandonar el juego:')
-# main()                
+# main()      

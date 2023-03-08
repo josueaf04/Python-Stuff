@@ -1,11 +1,10 @@
 #Clase del objeto deck 
 
-import card  
+import os
 import random
 
-# Constantes
-suits = ('\u2764', '\u2666', '\u2660', '\u2618')
-ranks = ('2', '3', '4', '5', '6', '7', '8', '9', 'J', 'Q', 'K', 'A')
+decks = 2
+deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]*(int(decks)*4)
 
 class deck: 
     def __init__(self): 
@@ -26,3 +25,5 @@ class deck:
     def deal(self): 
         onecard = self.deck.pop()
         return onecard                    
+    
+    

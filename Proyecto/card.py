@@ -1,7 +1,7 @@
 # Clase del objeto carta
 
-class card: 
-#Función inicializadora 
+import os
+import random
 
     def __init__(self, suit, rank): 
         self.rank = rank
