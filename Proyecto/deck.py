@@ -23,4 +23,4 @@ class deck:
         onecard = self.deck.pop()
         return onecard                    
     
-    hola
+    print(hola)

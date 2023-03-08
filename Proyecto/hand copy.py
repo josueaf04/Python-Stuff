@@ -26,8 +26,8 @@ class hand:
         self.value += values[card.rank]
 
 
-        hola
+         print(hola)
 
-        
+
     
     
