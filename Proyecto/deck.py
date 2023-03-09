@@ -7,7 +7,8 @@ import random
 suits = ('\u2764', '\u2666', '\u2660', '\u2618')
 ranks = ('2', '3', '4', '5', '6', '7', '8', '9', 'J', 'Q', 'K', 'A')
 
-class deck: 
+class deck:
+
     def init(self): 
         self.deck = [] 
         for suit in suits: 

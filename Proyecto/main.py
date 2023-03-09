@@ -35,13 +35,13 @@ def main():
 # Se trae la clase hand del módulo hand y se asignan los nombres de los jugadores.
 
 def players(): 
-
+        import deck
         wins = 0
         losses = 0
 
         import deck
         deck = deck.deck()
-        deck.shuffle
+        deck.shuffle()
 
         players = int(input('SELECCIONE 1 : 1 JUGADOR O 2 : 2 JUGADORES: \n'))
         if players == 1: 
