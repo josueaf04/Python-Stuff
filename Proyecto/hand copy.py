@@ -1,12 +1,4 @@
 # Clase del objeto hand
-import main
-import card
-import utils
-import deck
-
-
-
-# Clase del objeto hand
 
 
 # Constante
@@ -35,5 +27,10 @@ class hand:
     def add_new_card(self, card): 
         self.cardlist.append(card)
         self.value += values[card.rank]
-    
 
+
+         
+
+
+    
+    
