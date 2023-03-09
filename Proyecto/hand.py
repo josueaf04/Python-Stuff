@@ -1,7 +1,6 @@
 # Clase del objeto hand
-import main
+
 import card
-import utils
 import deck
 
 
