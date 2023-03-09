@@ -1,7 +1,4 @@
 # Main page
-# Meter todo main en una función main
-# Separar el código de main en funciones
-
 
 import hand
 import time
@@ -42,8 +39,11 @@ def players():
         import deck
         deck = deck.deck()
         deck.shuffle()
+# Se determina si van a jugar 1 o 2 jugadores
 
         players = int(input('SELECCIONE 1 : 1 JUGADOR O 2 : 2 JUGADORES: \n'))
+# Si el usuario selecciona 1 como respuesta se ejecuta la siguiente lógica
+
         if players == 1: 
                         print('INGRESE EL USERNAME QUE DESEA UTILIZAR:  \n')
                         username = input()
@@ -71,19 +71,19 @@ def players():
                                 choice = input('SELECCIONE LA OPCION QUE DESEE: [S]OLICITAR OTRA CARTA, [P]LANTARTE, o [A]BANDONAR EL JUEGO: \n').lower()
                                 clear()
                                 print('FASE FINAL DEL JUEGO\n')
-                # # Si el usuario seleccione 'S' como opción se le entrega una nueva carta
+ # Si el usuario selecciona 'S' como opción se le entrega una nueva carta
                                 
                                 if choice == "s": 
                                         playerhand.add_new_card(deck.deal())
                                         playerhand.printhand()
                                         print(f'EL NUEVO VALOR DE LA MANO DE {username} ES: {playerhand.value}\n')
-                # # Se le agrega la otra carta a la mano del dealer
+# Se le agrega la otra carta a la mano del dealer
 
                                         dealerhand.add_new_card(deck.deal())
                                         dealerhand.printhand()
                                         print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
-                                        
-                                        
+# Si el usuario selecciona 'p' como opción se queda con la mano como la recibió y se le da la otra carta a la casa 
+#      
                                 elif choice == "p": 
                                         
                                         dealerhand.add_new_card(deck.deal())
@@ -93,9 +93,12 @@ def players():
                                         print(f'EL VALOR DE LA MANO DE {username} ES: {playerhand.value}\n')
                                         
                                         break
+# Si el usuario selecciona 'a' como opción se termina el juego
+
                                 elif choice == "a": 
                                         print(f'GRACIAS POR JUGAR {username}, VUELVE PRONTO')
                                         break    
+# Si el usuario selecciona 1 como respuesta se ejecuta la siguiente lógica
                                                                                                        
         elif players == 2: 
                         print('USUARIO 1, INGRESE EL USERNAME QUE DESEA UTILIZAR: \n') 
@@ -126,13 +129,13 @@ def players():
                         print(f'LA MANO DE {username2} VALE: {playerhand2.value}\n') 
 
                         while True:
+# Se le plantean las opciones al primer usuario
                                 
                                 choice = input(f'{username} SELECCIONE LA ACCIÓN QUE DESEE TOMAR: [S]OLICITAR OTRA CARTA, [P]LANTARTE: \n')
                                 clear()
                                 print('FASE FINAL DEL JUEGO\n')
                                 print(playerhand2.printhand[0])
-                                
-                # # Si el usuario seleccione 'S' como opción se le entrega una nueva carta
+
                                 
                                 if choice == "s": 
                                         dealerhand.printhand()
@@ -150,6 +153,7 @@ def players():
                           
                                 else: 
                                         print('PORFAVOR ELIJA UNA OPCIÓN DE LAS LISTADAS')  
+# Se le plantean las opciones al segundo usuario
 
                                 choice2 = input(f'{username2} SELECCIONE LA ACCIÓN QUE DESEE TOMAR: [S]OLICITAR OTRA CARTA, [P]LANTARTE: \n') 
 
@@ -157,14 +161,12 @@ def players():
                                         playerhand2.add_new_card(deck.deal())
                                         playerhand2.printhand()
                                         print(f'EL NUEVO VALOR DE LA MANO DE {username2} ES: {playerhand2.value}\n')                                            
-                # # Se le agrega la otra carta a la mano del dealer
-
                                         dealerhand.add_new_card(deck.deal())
                                         dealerhand.printhand()
                                         print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
                                         break 
+
                                 elif choice2 == "p":
-                        
                                         dealerhand.add_new_card(deck.deal())
                                         dealerhand.printhand()
                                         print(f'EL VALOR DE LA MANO DE LA CASA ES : {dealerhand.value}\n')
@@ -172,9 +174,9 @@ def players():
                                         print(f'EL VALOR DE LA MANO DE {username2} ES: {playerhand2.value}\n')
                                         break
                                          
-        else: 
-                        print("")
-                        print(f'POR FAVOR SELECCIONE UNA DE LAS OPCIONES LISTADAS ANTERIORMENTE: \n') 
+                                else: 
+                                        print("")
+                                        print(f'POR FAVOR SELECCIONE UNA DE LAS OPCIONES LISTADAS ANTERIORMENTE: \n') 
 
 
 
