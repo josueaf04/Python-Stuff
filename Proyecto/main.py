@@ -2,115 +2,230 @@
 # Meter todo main en una función main
 # Separar el código de main en funciones
 
-import deck
+
 import hand
+import time
+import os
+
+
+
+def clear(): 
+        if os.name == 'nt': 
+                os.system('CLS')
+        if os.name == 'posix': 
+                os.system('clear')         
+
+def main(): 
+        
+
+     
 
 # Stats
-wins = 0
-losses = 0
+        wins = 0
+        losses = 0
+
+        print('BIENVENIDO A BLACKJACK\n')
 
 
-
-print('Bienvenido a Blackjack\n')
-
-
-print("    \033[1;32;40mWINS:  \033[1;37;40m%s   \033[1;31;40mLOSSES:  \033[1;37;40m%s\n" % (wins, losses))
+        print("    \033[1;32;40mWINS:  \033[1;37;40m%s   \033[1;31;40mLOSSES:  \033[1;37;40m%s\n" % (wins, losses))
 
 
-deck = deck.deck()
-deck.shuffle()
+        players()
+
 # Se trae la clase hand del módulo hand y se asignan los nombres de los jugadores.
 
-print('Ingrese el username que desea utilizar: ')
-username = input()
-print("")
-playerhand = hand.hand(username)
-dealerhand = hand.hand('La casa')
-# Se le agrega una carta a "dealerhand"
+def players(): 
 
-dealerhand.add_new_card(deck.deal())
-dealerhand.printhand()
+        wins = 0
+        losses = 0
 
-if dealerhand.value > 21: 
-        hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-          'J': 10, 'Q': 10, 'K': 10,}                 
-print("")
-# Se le agregan dos cartas a "playerhand"
+        import deck
+        deck = deck.deck()
+        deck.shuffle
 
-playerhand.add_new_card(deck.deal())
-playerhand.add_new_card(deck.deal())
-playerhand.printhand()
-print('El valor de tu mano es de: \n', playerhand.value)
-if playerhand.value > 21: 
-        hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-          'J': 10, 'Q': 10, 'K': 10,}
-# Se crea un loop para que el usuario indique qué acción desea tomar
+        players = int(input('SELECCIONE 1 : 1 JUGADOR O 2 : 2 JUGADORES: \n'))
+        if players == 1: 
+                        print('INGRESE EL USERNAME QUE DESEA UTILIZAR:  \n')
+                        username = input()
+                        playerhand = hand.hand(username)
+                        dealerhand = hand.hand('LA CASA')
+                        
+                        print('INICIANDO LA PARTIDA... \n')
+                        time.sleep(3)
 
-while True:
-         
-        choice = input('Selecciona la opción que desees: [S]olicitar, [P]lantarte, o [A]bandonar el juego: \n')
-        print("")
-# Si el usuario seleccione 'S' como opción se le entrega una nueva carta
-        if choice == 'S': 
-                playerhand.add_new_card(deck.deal())
-                playerhand.printhand()
-                print(f'El nuevo valor de tu mano es: {playerhand.value}\n')
-# Se le agrega la otra carta a la mano del dealer
+                        dealerhand.add_new_card(deck.deal())
+                        dealerhand.printhand()
+                        print('* *')
+                        print('LA MANO DE LA CASA VALE: *\n')
+                        time.sleep(5)
 
-                dealerhand.add_new_card(deck.deal())
-                dealerhand.printhand()
-# Se ejecuta la lógica que determina al ganador
+                        
+
+                        playerhand.add_new_card(deck.deal())
+                        playerhand.add_new_card(deck.deal())
+                        playerhand.printhand()
+                        print(f'LA MANO DE {username} VALE: {playerhand.value}\n')
+
+                        while True:
+                                
+                                choice = input('SELECCIONE LA OPCION QUE DESEE: [S]OLICITAR OTRA CARTA, [P]LANTARTE, o [A]BANDONAR EL JUEGO: \n').lower()
+                                clear()
+                                print('FASE FINAL DEL JUEGO\n')
+                # # Si el usuario seleccione 'S' como opción se le entrega una nueva carta
+                                
+                                if choice == "s": 
+                                        playerhand.add_new_card(deck.deal())
+                                        playerhand.printhand()
+                                        print(f'EL NUEVO VALOR DE LA MANO DE {username} ES: {playerhand.value}\n')
+                # # Se le agrega la otra carta a la mano del dealer
+
+                                        dealerhand.add_new_card(deck.deal())
+                                        dealerhand.printhand()
+                                        print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
+                                        
+                                        
+                                elif choice == "p": 
+                                        
+                                        dealerhand.add_new_card(deck.deal())
+                                        dealerhand.printhand()
+                                        print(f'EL VALOR DE LA MANO DE LA CASA ES : {dealerhand.value}\n')
+                                        playerhand.printhand()
+                                        print(f'EL VALOR DE LA MANO DE {username} ES: {playerhand.value}\n')
+                                        
+                                        break
+                                elif choice == "a": 
+                                        print(f'GRACIAS POR JUGAR {username}, VUELVE PRONTO')
+                                        break    
+                                                                                                       
+        elif players == 2: 
+                        print('USUARIO 1, INGRESE EL USERNAME QUE DESEA UTILIZAR: \n') 
+                        username = input()
+                        print('USUARIO 2, INGRESE EL USERNAME QUE DESEA UTILIZAR: \n')
+                        username2 = input()
+                        playerhand = hand.hand(username)
+                        playerhand2 = hand.hand(username2)
+                        dealerhand = hand.hand('LA CASA')
+                        print('INICIANDO LA PARTIDA... \n')
+                        time.sleep(3)
+
+                        dealerhand.add_new_card(deck.deal())
+                        dealerhand.printhand()
+                        print('* *')
+                        print('LA MANO DE LA CASA VALE: *\n')
+                        time.sleep(5)
+
+
+                        playerhand.add_new_card(deck.deal())
+                        playerhand.add_new_card(deck.deal())
+                        playerhand.printhand()
+                        print(f'LA MANO DE {username} VALE: {playerhand.value}\n')
+                        time.sleep(5)
+                        playerhand2.add_new_card(deck.deal())
+                        playerhand2.add_new_card(deck.deal())
+                        playerhand2.printhand()
+                        print(f'LA MANO DE {username2} VALE: {playerhand2.value}\n') 
+
+                        while True:
+                                
+                                choice = input(f'{username} SELECCIONE LA ACCIÓN QUE DESEE TOMAR: [S]OLICITAR OTRA CARTA, [P]LANTARTE: \n')
+                                clear()
+                                print('FASE FINAL DEL JUEGO\n')
+                                print(playerhand2.printhand[0])
+                                
+                # # Si el usuario seleccione 'S' como opción se le entrega una nueva carta
+                                
+                                if choice == "s": 
+                                        dealerhand.printhand()
+                                        print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
+                                        playerhand.add_new_card(deck.deal())
+                                        playerhand.printhand()
+                                        print(f'EL NUEVO VALOR DE LA MANO DE {username} ES: {playerhand.value[0]} \n')
+                                elif choice == "p": 
+                                        
+                                        dealerhand.printhand()
+                                        print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
+                                        print(f'EL VALOR DE LA MANO DE LA CASA ES : {dealerhand.value}\n')
+                                        playerhand.printhand()
+                                        print(f'EL VALOR DE LA MANO DE {username} ES: {playerhand.value}\n')                                        
+                          
+                                else: 
+                                        print('PORFAVOR ELIJA UNA OPCIÓN DE LAS LISTADAS')  
+
+                                choice2 = input(f'{username2} SELECCIONE LA ACCIÓN QUE DESEE TOMAR: [S]OLICITAR OTRA CARTA, [P]LANTARTE: \n') 
+
+                                if choice2 == "s": 
+                                        playerhand2.add_new_card(deck.deal())
+                                        playerhand2.printhand()
+                                        print(f'EL NUEVO VALOR DE LA MANO DE {username2} ES: {playerhand2.value}\n')                                            
+                # # Se le agrega la otra carta a la mano del dealer
+
+                                        dealerhand.add_new_card(deck.deal())
+                                        dealerhand.printhand()
+                                        print(f'LA MANO DE LA CASA VALE: {dealerhand.value}\n')
+                                        break 
+                                elif choice2 == "p":
+                        
+                                        dealerhand.add_new_card(deck.deal())
+                                        dealerhand.printhand()
+                                        print(f'EL VALOR DE LA MANO DE LA CASA ES : {dealerhand.value}\n')
+                                        playerhand.printhand()
+                                        print(f'EL VALOR DE LA MANO DE {username2} ES: {playerhand2.value}\n')
+                                        break
+                                         
+        else: 
+                        print("")
+                        print(f'POR FAVOR SELECCIONE UNA DE LAS OPCIONES LISTADAS ANTERIORMENTE: \n') 
+
+
+
+        def play_again(): 
+                repeat = (input('DESEA JUGAR[N]UEVA PARTIDA O [S]ALIR DEL JUEGO: ')).lower()
+                while True:
+                        if repeat == "n":
+                                main()
+
+                        elif repeat == "s":
+                                print("GRACIAS POR JUGAR!")
+
+                                break
+
+         # Se ejecuta la lógica que determina al ganador
+
+        while True:
 
                 if dealerhand.value > 21: 
-                        hand.values = {'A': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-                        'J': 10, 'Q': 10, 'K': 10,}         
-                print('El valor de la mano de La casa es de: ', dealerhand.value)
+                        print(f"BLACKJACK! FELICIDADES {username} HAZ GANADO!")  
+                        wins + 1
+                        play_again()
+                                
                 if dealerhand.value == 21: 
                         losses + 1
-                        print(f"Blackjack! La casa gana!")
+                        print(f"BLACKJACK! LA CASA GANA!")
+                        play_again()
                 elif playerhand.value == 21: 
-                        print(f"Blackjack! Felicidades {username} haz ganado!")  
+                        print(f"BLACKJACK! FELICIDADES {username} HAZ GANADO!")
+                          
                         wins + 1
+                        play_again()
                 elif playerhand.value > 21: 
                         losses + 1
-                        print(f"Te pasaste! La casa gana!")
+                        print(f"TE PASASTE! LA CASA GANA!")
+                        play_again()
                 elif dealerhand.value > 21: 
                         wins + 1 
-                        print(f"{dealerhand} se ha pasado! Felicidades {username}, haz ganado\! ")
+                        print(f"{dealerhand} SE HA PASADO! FELICIDADES {username} HAZ GANADO! ")
+                        play_again()
                 elif 21 - dealerhand.value < 21 - playerhand.value: 
-                        print(f"La casa gana!")
+                        print("LA CASA GANA!")
                         losses + 1
+                        play_again()
                 elif 21 - playerhand.value < 21 - dealerhand.value:    
                         wins + 1 
-                        print(f"Felicidades {username}! Haz ganado\!") 
-# Si el usuario selecciona 'P' como su opción, se queda con la mano actual y se le agrega la faltante a la casa
-               
-        elif choice == 'P':
+                        
+                        print(f"FELICIDADES {username}! HAZ GANADO!")
+                        play_again()
+                elif playerhand == dealerhand: 
+                        print('EMPATE')  
+                        play_again()
 
-                dealerhand.add_new_card(deck.deal())
-                dealerhand.printhand()
-                print(f'El valor de la mano de la casa es: {dealerhand.value}')
-                if dealerhand.value == 21: 
-                        losses + 1
-                        print(f"Blackjack! La casa gana!")
-                elif playerhand.value == 21: 
-                        print(f"Blackjack! Felicidades {username} haz ganado!")  
-                        wins + 1
-                elif playerhand.value > 21: 
-                        losses + 1
-                        print(f"Te pasaste! La casa gana!")
-                elif dealerhand.value > 21: 
-                        wins + 1 
-                        print(f"{dealerhand} se ha pasado! Felicidades {username}, haz ganado\! ")
-                elif 21 - dealerhand.value < 21 - playerhand.value: 
-                        print(f"La casa gana!")
-                        losses + 1
-                elif 21 - playerhand.value < 21 - dealerhand.value:    
-                        wins + 1 
-                        print(f"Felicidades {username}! Haz ganado!")
-# Finalmenmte si el usuario selecciona 'A' como su opción, el juego se termina
-
-        elif choice == 'A':
-                print('Gracias por jugar, vuelve pronto!\n')
-                break
-               
+main()
