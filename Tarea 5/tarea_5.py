@@ -104,6 +104,3 @@ print(list(map(lambda a, b: a / b , [90], [2])))
 print(list(map(lambda a, b: a / b , [45], [3])))
 print(list(map(lambda a, b: a / b , [1000], [2])))
 print(list(map(lambda a, b: a / b , [4900], [70])))
-
-
-
